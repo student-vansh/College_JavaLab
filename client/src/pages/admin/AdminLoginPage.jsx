@@ -6,7 +6,7 @@ const AdminLoginPage = () => {
   const [pass, setPass] = useState("");
   const handlelogin = () =>{
    const res = adminLogin(email,pass)
-   if(res == "Login Sucess"){
+   if(res == "Login Success"){
       console.log("sucess");
       
    }
