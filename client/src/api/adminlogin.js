@@ -4,6 +4,8 @@ const adminLogin = (email,pass) =>{
        email,
        pass
      })
+     console.log(response);
+     
      return response.data;
 }
 export default adminLogin;
